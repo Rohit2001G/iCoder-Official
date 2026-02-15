@@ -81,7 +81,7 @@ const Navigation = () => {
               
               <li className="nav-item">
                 <NavLink
-                  className="nav-link ps-sm-2 text-light ms-3 ms-sm-0"
+                  className="nav-link ps-sm-2 text-light ms-0 ms-sm-4"
                   aria-current="page"
                   to="AboutUs"
                 >
@@ -90,7 +90,7 @@ const Navigation = () => {
               </li>
 
               <li className="nav-item">
-                <NavLink className="nav-link ps-sm-2 text-light ms-sm-0 ms-3" to="/ContactUs">
+                <NavLink className="nav-link ps-sm-2 text-light ms-sm-4 ms-0" to="/ContactUs">
                   Contact Us
                 </NavLink>
               </li>
