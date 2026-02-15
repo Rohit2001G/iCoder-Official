@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Body(){
     return(
@@ -50,7 +51,7 @@ function Body(){
           <h3 class="mb-0">Security is Priority</h3>
           <div class="mb-1 text-muted">Nov 21</div>
           <p class="card-text mb-auto">Security has become one of the most critical priorities for individuals, businesses, and organisations in today’s digitally connected world.</p>
-          <a href="/Security" class="stretched-link">Continue reading</a>
+          <Link to="/Security" class="stretched-link">Continue reading</Link>
         </div>
         <div class="col-auto d-none d-sm-block">
           <img src="./images/body1.jpg"width="220" height="250"alt="" />
@@ -65,7 +66,7 @@ function Body(){
           <h3 class="mb-0">Coding Playing</h3>
           <div class="mb-1 text-muted">Nov 19</div>
           <p class="mb-auto">Coding is not just writing lines of instructions for a computer; it’s an exciting way to solve problems, build creative projects, and continuously learn new skills.</p>
-          <a href="/Coding" class="stretched-link">Continue reading</a>
+          <Link to="/Coding" class="stretched-link">Continue reading</Link>
         </div>
         <div class="col-auto d-none d-sm-block">
           <img src="./images/body2.jpg"width="220" height="250" alt="" />
@@ -81,7 +82,7 @@ function Body(){
           <h3 class="mb-0">Enhance Logic Skill</h3>
           <div class="mb-1 text-muted">Nov 15</div>
           <p class="card-text mb-auto">Improving your logic skills is one of the most valuable abilities you can develop, especially in fields like programming, problem-solving, and decision-making.</p>
-          <a href="/Logic" class="stretched-link">Continue reading</a>
+          <Link to="/Logic" class="stretched-link">Continue reading</Link>
         </div>
         <div class="col-auto d-none d-sm-block">
           <img src="./images/body3.jpg"width="220" height="250" alt="" />
@@ -96,7 +97,7 @@ function Body(){
           <h3 class="mb-0">Design Web</h3>
           <div class="mb-1 text-muted">Nov 14</div>
           <p class="mb-auto">Web design refers to the process of planning, creating, and arranging the visual layout, user interface, and overall experience of a website.</p>
-          <a href="/Design" class="stretched-link">Continue reading</a>
+          <Link to="/Design" class="stretched-link">Continue reading</Link>
         </div>
         <div class="col-auto d-none d-sm-block">
           <img src="./images/body4.jpg"width="220" height="250" alt="" />
@@ -112,7 +113,7 @@ function Body(){
           <h3 class="mb-0">Code Smartly</h3>
           <div class="mb-1 text-muted">Nov 12</div>
           <p class="card-text mb-auto">Writing code smartly means much more than just making a program work — it means creating code that is clean, understandable, efficient, and maintainable over time.</p>
-          <a href="SmartCoding" class="stretched-link">Continue reading</a>
+          <Link to="SmartCoding" class="stretched-link">Continue reading</Link>
         </div>
         <div class="col-auto d-none d-sm-block">
           <img src="./images/body5.jpg"width="220" height="250" alt="" />
@@ -127,7 +128,7 @@ function Body(){
           <h3 class="mb-0">Look at Problems</h3>
           <div class="mb-1 text-muted">Nov 11</div>
           <p class="mb-auto">Problem-solving is a foundational skill in coding and software development because programming is essentially about identifying challenges and finding effective solutions to them.</p>
-          <a href="/LookProblems" class="stretched-link">Continue reading</a>
+          <Link to="/LookProblems" class="stretched-link">Continue reading</Link>
         </div>
         <div class="col-auto d-none d-sm-block">
           <img src="./images/body6.jpg"width="220" height="250" alt="" />

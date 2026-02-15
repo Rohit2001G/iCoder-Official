@@ -16,7 +16,7 @@ import Services from './components/Nav/Services';
 import PrivacyPolicies from './components/Foot/PrivacyPolicies';
 import TearmConditions from './components/Foot/TearmConditions';
 import ScrollToTop from './components/ScrollTop';
-import Security from './components/Security';
+import Security from './components/Home/Body/Security';
 import Coding from './components/Home/Body/Coding';
 import { Logic } from './components/Home/Body/Logic';
 import { Design } from './components/Home/Body/Design';
